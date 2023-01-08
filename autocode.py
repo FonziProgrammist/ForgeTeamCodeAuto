@@ -23,17 +23,17 @@ from discord.ext import tasks, commands
 ####################################################################################################################### qwizz
 DEBUG_HTTP = False
 DATABASE: Path = Path(__file__).parent.joinpath("nitro.db") # Путь к файлу базы данных
-BOT_TOKEN: str = "" # discord bot token https://discord.com/developers
-QIWI_SECRET_KEY: str = "" # base64 encoded qiwi private_key https://qiwi.com/p2p-admin/api
-APPLICATION_ID: int = 0 # bot id
-CLASSIC: str = "" # classic emoji e.g: "<:classic:1013486755921539182>"
-FULL: str = ""  # full_nitro emoji e.g: "<:full:1009420900535386122>"
-NITRO: str = ""  # nitro emoji e.g: "<:nitro:1009420900535386122>"
-ADMIN_SERVER: int = 0 # id of admin server
-ADMIN_ROLE: int = 0 # id of admin role
-BUY_CHANNEL: int = 0 # id of buy log channel
-OPLATA_CHANNEL: int = 0 # id of oplata log channel
-OTZIVI_CHANNEL: str = "" # ССЫЛКА на канал для отзывов
+BOT_TOKEN: str = "MTA2MTU2ODAwNjk4OTI5NTY4Ng.GE3BVn.Y_tJvvQUBDx1uX-t60IruZJzcNOsPxXf3u8dKw" # discord bot token https://discord.com/developers
+QIWI_SECRET_KEY: str = "eyJ2ZXJzaW9uIjoiUDJQIiwiZGF0YSI6eyJwYXlpbl9tZXJjaGFudF9zaXRlX3VpZCI6Imd2MHRwMi0wMCIsInVzZXJfaWQiOiI3OTUzMjkwMzgyNSIsInNlY3JldCI6IjNkMGZkMDk2YTdlNGRlOTNiYThkMjZjZTE0ZjBjYzUxNzIwMDg3YTQ3NmVhMTAyNDczMTBlN2U1YmRiMmRjMTEifX0=" # base64 encoded qiwi private_key https://qiwi.com/p2p-admin/api
+APPLICATION_ID: int = 1061568006989295686 # bot id
+CLASSIC: str = ":b_nitroclass: " # classic emoji e.g: ":classic:"
+FULL: str = ":b_nitrofull: "  # full_nitro emoji e.g: ":full:" 
+NITRO: str = ""  # nitro emoji e.g: ":nitro:"
+ADMIN_SERVER: int = 1022372152193855488 # id of admin server
+ADMIN_ROLE: int = 1061550395018711050 # id of admin role
+BUY_CHANNEL: int = 1061549789130526811 # id of buy log channel
+OPLATA_CHANNEL: int = 1061549789130526811 # id of oplata log channel
+OTZIVI_CHANNEL: str = "https://discord.gg/qwT8E8Ap"
 #######################################################################################################################
 xInputDictType = t.Dict[t.Union[str, int, bool, None, float], t.Union[str, int, bool, None, float]]
 xInputDataT = t.Union[t.List[xInputDictType], xInputDictType]
